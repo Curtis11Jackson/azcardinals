@@ -39,6 +39,11 @@
 .title {
   text-align: center;
   margin:50px auto 30px;
+  color:#ab0e1b;
+}
+
+h1{
+  color:#ab0e1b;
 }
 
 .opening-section{
@@ -79,4 +84,8 @@ h3{
   display: flex;
   flex-wrap: wrap;
 }
-  
+
+/* Page Added User */
+h2{
+  text-align:center;
+}

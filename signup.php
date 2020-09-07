@@ -1,6 +1,7 @@
 <?php
 require 'view/header.php';
-require 'connectdb.php'
+require 'identifier.php';
+require './autoloadclass.php';
 ?>
 
 <h1 class="title">Get subscribed Today !</h1>

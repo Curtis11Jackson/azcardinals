@@ -7,8 +7,8 @@ require 'view/header.php';
 <section class="opening-section">
 
   <article class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10 offset-xl-2 offset-lg-2 offset-md-2 offset-sm-1 offset-xs-1 opening-article-1">
-    <h3>New beginings</h3>
-    <img src="./media/11and10" class="img-fluid" alt="larry and hopkins">
+    <h3>Dual Threat</h3>
+    <img src="./media/11and10.jpg" class="img-fluid" alt="larry and hopkins">
     <p id="new-beginings-paragraph">The Cardinals' bold plan to pair a freshly-fired college coach with an undersized quarterback in 2019 went exactly as hoped.
     Kliff Kingsbury helped revive a moribund offense with his innovative schematics, and Kyler Murray proved to be the ideal trigger man on his way to Offensive Rookie of the Year.
     The Cardinals only won five games a season ago, but made noticeable strides in Kingsbury's inaugural campaign. The expectations have been ratcheted up in 2020, as the blockbuster trade for wide receiver DeAndre Hopkins and reinforcements on defense have made the playoffs an attainable goal.
@@ -16,8 +16,20 @@ require 'view/header.php';
     "We just want to take a step forward," Kingsbury said. "We felt like we made some progress at the back end of last year as a team, even in our practice processes and how we did things. We're hoping to build off that this year and put a better product out there."
     Much of the success will be contingent on a breakout from Murray, who hopes to find the same type of second-season stardom as Patrick Mahomes and Lamar Jackson before him.
     Murray has made the necessary progress in training camp to foreshadow a successful campaign, but played it coy when asked to relay his team expectations for 2020.
-    </p>  
+    </p>
+
+  <hr>
+
+    <h3>New beginings</h3>
+    <img src="./media/team.jpg" class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-10 offset-xs-1 img-fluid" alt="larry and hopkins">
+    <p id="new-beginings-paragraph">The Cardinals are just about at the end of camp, roster cutdowns and the regular season. With that, here's another mailbag. If you want to leave a question for next week, go here.
+    From Zack Maus via azcardinals.com:
+    "Hey Darren, long-time Cardinals fan from NE Ohio! I just wanted your take on if you think Larry plans to keep playing next year as he approaches 40. He's literally in my opinion the absolute best human being to put the pads on, but everyone in the league eventually takes that next step in life. I'm just curious because the way our WR room is right now I feel its harder for the Andy Isabellas, and Hakeem Butlers (who have promise) to make any noise when you got the other three guys ahead of you. Kirk will need a contract eventually here too, and Larry isn't the cheapest on cap space either. Just wanted your thoughts!"
+    It's a fair point to wonder about younger receivers making progress when older players are in front of them. However, as beloved as Fitz is, if he weren't playing better than the other guys, I don't think he'd play as much. Bottom line, Fitz remains one of the team's best receivers. That's who you want on the field, the best players. As for retirement, who knows? If he goes out and plays well and piles up another 800-1,000 yards on 80 catches, why wouldn't he want to keep going?
+    </p>
+
   </article>
+  
 
   <article class="col-xl-2 col-lg-2 col-md-3 col-sm-10 col-xs-10 offset-xl-0 offset-lg-0 offset-md-0 offset-sm-1 offset-xs-1 opening-article-2">
     <h3>Latest News</h3>
@@ -43,10 +55,20 @@ require 'view/header.php';
         <li class="extra-space">WEEK 5 · Sun 10/11 · 10:00 AM MST New York Jets</li>
         <li class="extra-space">WEEK 6 · Mon 10/19 · 5:15 PM MST @ Dallas Cowboys</li>
         <li class="extra-space">WEEK 7 · Sun 10/25 · 1:05 PM MST @ Seattle Seahawks</li>
+        <li class="extra-space">WEEK 8 · BYE</li>
+        <li class="extra-space">WEEK 9 · Sun 11/08 · 2:25 PM MST @ Miami Dolphins</li>
+        <li class="extra-space">WEEK 10 · Sun 11/15 · 2:05 PM MST @ Buffalo Bills</li>
+        <li class="extra-space">WEEK 11 · Thu 11/19 · 6:20 PM MST @ Seattle Seahawks</li>
+        <li class="extra-space">WEEK 12 · Sun 11/29 · 11:00 AM MST @ New England Patriots</li>
+        <li class="extra-space">WEEK 13 · Sun 12/06 · 2:05 PM MST @ Los Angeles Rams</li>
+
+        
       </ul>
     </p>
     
   </article>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/TE_ZpsJL_5k?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </section>
 

@@ -2,7 +2,7 @@
 
 class User
 {
-    //définir les attributs
+    //Attributs
     private $_id_user;
     private $_name_user;
     private $_email_user;
@@ -48,6 +48,10 @@ class User
         return $this->_password_user;
     }
 
+    public function team_user()
+    {
+        return $this->_team_user;
+    }
     //SETTER
     public function setId_user($id)
     {
@@ -57,7 +61,6 @@ class User
             $this->_id_user = $id;
         }
     }
-
 
     public function setName_user($name)
     {
@@ -77,6 +80,13 @@ class User
     {
         if (is_string($password)) {
             $this->_password_user = $password;
+        }
+    }
+
+    public function setTeam_user($team)
+    {
+        if (is_string($team)) {
+            $this->_team_user = $team;
         }
     }
 
