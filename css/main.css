@@ -1,0 +1,82 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.banner{
+    height:10%;
+    width:50%;
+    text-align: center;
+}
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .banner {
+    padding-top: 10px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1000;
+  }
+
+  .navbar-toggler{
+    background-color: white;
+  }
+
+  .navlogo {
+    width: 40px;
+  }
+
+
+.title {
+  text-align: center;
+  margin:50px auto 30px;
+}
+
+.opening-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.opening-article-1, .opening-article-2{
+  border:2px solid black;
+  margin-top: 2%;
+  padding-bottom:2%;
+}
+
+h3{
+  text-align:center;
+  margin:10px auto 10px;
+}
+
+#new-beginings-paragraph{
+  padding-top:15px;
+}
+
+#latest-news{
+  padding:5%;
+}
+
+#fixtures-list{
+  list-style:none;
+}
+
+.extra-space{
+  padding:15px;
+  font-weight: bold;
+}
+
+/* Page Sign Up */
+.sign-up-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
