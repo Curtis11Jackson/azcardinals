@@ -15,7 +15,7 @@ if ($donnees != false) {
     $donnees2 = $reponse2->fetch();
     // echo var_dump($donnees2);
     if ($donnees2 != false) {
-        header("Location:CheckedAccount.php?id=".$donnees2['id_user']);
+        header("Location:myprofile.php?id=".$donnees2['id_user']);
     }
     else{
         echo " <article> 

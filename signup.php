@@ -37,7 +37,6 @@ require './autoloadclass.php';
         <label for="nom">User Team</label>
         <input type="text" class="form-control" id="team" class="team" name="team" placeholder="Enter your favorite team" required>
     </div>
-
     <div>
         <button type="submit" class="btn btn-primary" style="margin:auto;">Save</button>
     </div>

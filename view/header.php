@@ -31,7 +31,7 @@
                         <a class="nav-link" style="color:white;"  href="signup.php">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color:white;"  href="login.php">Log in</a>
+                        <a class="nav-link" style="color:white;"  href="login.php">My Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" style="color:white;"  href="gallery.php">Gallery</a>

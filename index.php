@@ -68,8 +68,6 @@ require 'view/header.php';
     
   </article>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/TE_ZpsJL_5k?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </section>
 
 

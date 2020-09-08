@@ -7,7 +7,6 @@ $id = $_GET['id'];
 $prenom =  $_GET['prenom'];
 $nom =  $_GET['nom'];
 $mail = $_GET['mail'];
-$login =  $_GET['login'];
 $password = $_GET['password'];
 ?>
 

@@ -52,6 +52,7 @@ class User
     {
         return $this->_team_user;
     }
+
     //SETTER
     public function setId_user($id)
     {

@@ -15,7 +15,7 @@ $UserTable = array(
   "name_user" => $name,
   'email_user' => $email,
   'password_user' => $password,
-  'team_user' => $team);
+  'team_user' => $team,);
 
 $myUser = new User($UserTable);
 

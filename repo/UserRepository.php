@@ -19,7 +19,7 @@ class UserRepository
   {
     //Reques to add User to Database
     $request = $this->_db->prepare("INSERT INTO users(name_user, email_user, password_user, team_user) 
-    VALUES (:name, :email, :password, :team)");
+    VALUES (:name, :email, :password, :team) ");
     //Execute with tableau 
     $request->execute(array(
       'name' => $user->name_user(),
@@ -56,9 +56,9 @@ public function delete($id)
 
 public function update(User $user)
 {
-    //prepare une requete UPDATE de animal par rapport à son ID
+    //prepare une requete UPDATE de User par rapport à son ID
     $q = $this->_db->prepare("UPDATE users SET name_user = :name,
-    email_user = :email, password_user = :password, team_user = :team 
+    email_user = :email, password_user = :password, team_user = :team,
     WHERE id_user =".$user->id_user());
     //execute la requette avec un tableau d'association
     $q->execute(array(

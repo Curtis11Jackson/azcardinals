@@ -3,17 +3,29 @@ require 'view/header.php';
 require 'identifier.php';
 require 'autoloadclass.php';
 
-$id = 2;
-$name = $_GET['name'];
+$id = $_GET['id'];
+$name = $_GET['firstname'];
 $email = $_GET['email'];
-$password = $_GET['password'];
 $team = $_GET['team'];
+
+$UserTable = array(
+    "id_user" => $id,
+    "name_user" => $name,
+    "email_user" => $email,
+    "team_user" => $team
+    );
+    
+    $user = new User($UserTable);
+    
+    $monUserRepo = new UserRepository($db);
+    
+    $donnees2 = $monUserRepo->update($user);
 
 ?>
 
 <h2 style="text-align:center;">Update your info</h2>
 
-<form class="w-50" method="POST" action="addeduser.php" style="margin:50px auto 20px;">
+<form class="w-50" method="POST" action="updateduserinfo.php" style="margin:50px auto 20px;">
 
     <div class="form-group">
         <label for="nom">User Name</label>
@@ -27,7 +39,7 @@ $team = $_GET['team'];
 
     <div class="form-group">
         <label for="nom">User Password</label>
-        <input type="password" class="form-control" id="password" class="password" name="password" value="<?php echo $password ?>" required>
+        <input type="password" class="form-control" id="password" class="password" name="password" required>
     </div>
 
     <div class="form-group">
