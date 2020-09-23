@@ -10,7 +10,7 @@ $monUserRepo = new UserRepository($db);
 
 $donnees2 = $monUserRepo->getNameById($id);
 
-echo var_dump($donnees2);
+// echo var_dump($donnees2);
 
 
 if ($donnees2 != false) {

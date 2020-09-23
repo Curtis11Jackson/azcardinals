@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-    <title>Arizona</title>
+    <title>School</title>
 </head>
 
 <body>
